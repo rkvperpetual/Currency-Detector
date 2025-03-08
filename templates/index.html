@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Detector</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Indian Currency Detector</h1>
+
+        <!-- File Upload Section -->
+        <div class="upload-box">
+            <input type="file" id="imageUpload" accept="image/*">
+            <label for="imageUpload">Choose an image</label>
+        </div>
+
+        <!-- Image Preview -->
+        <div class="image-preview">
+            <img id="imagePreview" src="" alt="Preview">
+        </div>
+
+        <!-- Prediction Button -->
+        <button id="predictButton" class="btn hidden">Predict</button>
+
+        <!-- Prediction Result -->
+        <p id="result"></p>
+
+        <!-- Audio Controls -->
+        <audio id="audioPlayer" controls class="hidden"></audio>
+        <button id="replayButton" class="btn hidden">Replay Audio</button>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
