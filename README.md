@@ -36,7 +36,7 @@ currency-detection/
 ## 🛠️ Installation
 
 1. Clone the repository:
-   git clone https://github.com/your-username/currency-detection.git
+   git clone https://github.com/rkvperpetual/currency-detection.git
    cd currency-detection
 
 2. Create a virtual environment (optional):
@@ -103,5 +103,5 @@ This project is licensed under the MIT License.
 
 ---
 
-👨‍💻 Developed by [Your Name]  
-📧 Contact: your.email@example.com
+👨‍💻 Developed by [Raj Kumar Vishwakarma]  
+📧 Contact: rkv.perpetual@gmail.com
