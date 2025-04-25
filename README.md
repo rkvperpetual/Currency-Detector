@@ -21,6 +21,7 @@ This project aims to help visually impaired individuals identify Indian currency
 
 ## 🗂️ Project Structure
 
+```
 currency-detection/
 ├── dataset/               # Indian currency note images (organized by denomination)
 ├── models/                # Saved MobileNetV2 model
@@ -30,8 +31,9 @@ currency-detection/
 │   └── utils.py           # Helper functions
 ├── app.py                 # Main application logic
 ├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-└── demo/                  # Optional: images or videos of the working system
+├── README.md              # Project documentation           
+```
+
 
 ## 🛠️ Installation
 
