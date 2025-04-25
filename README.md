@@ -23,7 +23,7 @@ This project aims to help visually impaired individuals identify Indian currency
 
 ```
 currency-detection/
-├── dataset/               # Indian currency note images (organized by denomination)
+├── dataset/               # Indian currency note images (datasets from Kaggle)
 ├── static/
 ├── templates/
 ├── currency.ipynb         # model is created using CNN model
