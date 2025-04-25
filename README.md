@@ -24,11 +24,10 @@ This project aims to help visually impaired individuals identify Indian currency
 ```
 currency-detection/
 ├── dataset/               # Indian currency note images (organized by denomination)
-├── models/                # Saved MobileNetV2 model
-├── src/                   
-│   ├── predict.py         # Prediction script
-│   ├── tts.py             # Text-to-speech functionality using gTTS
-│   └── utils.py           # Helper functions
+├── static/
+├── templates/
+├── currency.ipynb         # model is created using CNN model
+├── pre_currency.ipynb     # Model is created from pre-trained model
 ├── app.py                 # Main application logic
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation           
